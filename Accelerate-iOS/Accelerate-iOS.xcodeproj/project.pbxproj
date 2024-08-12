@@ -14,6 +14,9 @@
 		0AE4C3DA2C696F0500B49E17 /* Accelerate_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3D92C696F0500B49E17 /* Accelerate_iOSTests.swift */; };
 		0AE4C3E42C696F0500B49E17 /* Accelerate_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3E32C696F0500B49E17 /* Accelerate_iOSUITests.swift */; };
 		0AE4C3E62C696F0500B49E17 /* Accelerate_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3E52C696F0500B49E17 /* Accelerate_iOSUITestsLaunchTests.swift */; };
+		0AE4C3F32C69723300B49E17 /* ImageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3F22C69723300B49E17 /* ImageWrapper.swift */; };
+		0AE4C3F52C6987E900B49E17 /* EqualizeHistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3F42C6987E900B49E17 /* EqualizeHistogramView.swift */; };
+		0AE4C3F92C698FA100B49E17 /* ReflectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4C3F82C698FA100B49E17 /* ReflectImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0AE4C3DF2C696F0500B49E17 /* Accelerate-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accelerate-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE4C3E32C696F0500B49E17 /* Accelerate_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerate_iOSUITests.swift; sourceTree = "<group>"; };
 		0AE4C3E52C696F0500B49E17 /* Accelerate_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerate_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AE4C3F22C69723300B49E17 /* ImageWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWrapper.swift; sourceTree = "<group>"; };
+		0AE4C3F42C6987E900B49E17 /* EqualizeHistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeHistogramView.swift; sourceTree = "<group>"; };
+		0AE4C3F82C698FA100B49E17 /* ReflectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,11 @@
 		0AE4C3C72C696F0200B49E17 /* Accelerate-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0AE4C3F62C698F1100B49E17 /* View */,
 				0AE4C3C82C696F0200B49E17 /* Accelerate_iOSApp.swift */,
-				0AE4C3CA2C696F0200B49E17 /* ContentView.swift */,
 				0AE4C3CC2C696F0400B49E17 /* Assets.xcassets */,
 				0AE4C3CE2C696F0400B49E17 /* Preview Content */,
+				0AE4C3F72C698F3700B49E17 /* Model */,
 			);
 			path = "Accelerate-iOS";
 			sourceTree = "<group>";
@@ -125,6 +132,24 @@
 				0AE4C3E52C696F0500B49E17 /* Accelerate_iOSUITestsLaunchTests.swift */,
 			);
 			path = "Accelerate-iOSUITests";
+			sourceTree = "<group>";
+		};
+		0AE4C3F62C698F1100B49E17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AE4C3CA2C696F0200B49E17 /* ContentView.swift */,
+				0AE4C3F42C6987E900B49E17 /* EqualizeHistogramView.swift */,
+				0AE4C3F82C698FA100B49E17 /* ReflectImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AE4C3F72C698F3700B49E17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AE4C3F22C69723300B49E17 /* ImageWrapper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE4C3CB2C696F0200B49E17 /* ContentView.swift in Sources */,
+				0AE4C3F52C6987E900B49E17 /* EqualizeHistogramView.swift in Sources */,
+				0AE4C3F92C698FA100B49E17 /* ReflectImageView.swift in Sources */,
+				0AE4C3F32C69723300B49E17 /* ImageWrapper.swift in Sources */,
 				0AE4C3C92C696F0200B49E17 /* Accelerate_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
